@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CakeFactory.ProductionService", "CakeFactory.ProductionService\CakeFactory.ProductionService.csproj", "{CE38A762-277B-4DF6-A61C-072771D838F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CakeFactory.ProductionService", "CakeFactory.ProductionService\CakeFactory.ProductionService.csproj", "{CE38A762-277B-4DF6-A61C-072771D838F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CakeFactory.Core", "CakeFactory.Core\CakeFactory.Core.csproj", "{350A37D4-C57C-4891-B396-3D2B46B7C547}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CakeFactory.Core", "CakeFactory.Core\CakeFactory.Core.csproj", "{350A37D4-C57C-4891-B396-3D2B46B7C547}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CakeFactory.Infrastructure", "CakeFactory.Infrastructure\CakeFactory.Infrastructure.csproj", "{52D31349-1986-46CD-8FF4-4A8530FFE6C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CakeFactory.Infrastructure", "CakeFactory.Infrastructure\CakeFactory.Infrastructure.csproj", "{52D31349-1986-46CD-8FF4-4A8530FFE6C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CakeFactory.Web.Server", "CakeFactory.Web\Server\CakeFactory.Web.Server.csproj", "{3262FC32-00E0-4AF3-B547-6585D47FBEBB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CakeFactory.Web.Server", "CakeFactory.Web\Server\CakeFactory.Web.Server.csproj", "{3262FC32-00E0-4AF3-B547-6585D47FBEBB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CakeFactory.Web.Client", "CakeFactory.Web\Client\CakeFactory.Web.Client.csproj", "{40F06586-841F-4949-9D0D-6DDF3F87B8D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CakeFactory.Web.Client", "CakeFactory.Web\Client\CakeFactory.Web.Client.csproj", "{40F06586-841F-4949-9D0D-6DDF3F87B8D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CakeFactory.Web.Shared", "CakeFactory.Web\Shared\CakeFactory.Web.Shared.csproj", "{567545B0-0B34-4354-AB2C-C1301A7100A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CakeFactory.Web.Shared", "CakeFactory.Web\Shared\CakeFactory.Web.Shared.csproj", "{567545B0-0B34-4354-AB2C-C1301A7100A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CakeFactory.ProductionService.IntegrationTests", "CakeFactory.ProductionService.IntegrationTests\CakeFactory.ProductionService.IntegrationTests.csproj", "{C5C820D3-0008-4075-99E8-333DEEC1CAE1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{567545B0-0B34-4354-AB2C-C1301A7100A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{567545B0-0B34-4354-AB2C-C1301A7100A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{567545B0-0B34-4354-AB2C-C1301A7100A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5C820D3-0008-4075-99E8-333DEEC1CAE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5C820D3-0008-4075-99E8-333DEEC1CAE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5C820D3-0008-4075-99E8-333DEEC1CAE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5C820D3-0008-4075-99E8-333DEEC1CAE1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
